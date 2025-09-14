@@ -1,0 +1,97 @@
+.stream-item{
+    position: relative;
+}
+
+.cameraTitleLive{
+    position: absolute;
+    top: 6px;left: 6px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 6px;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.05);
+    backdrop-filter: blur(1px);
+    font-size: 1em;
+}
+
+.customPaginationLive{
+    display: flex;
+  
+}
+
+.singleLiveCam{
+    width: 86vw;
+    padding:0.25vw;
+}
+.dualLiveCam{
+    width: 43vw;
+    padding:0.25vw;
+}
+.quadLiveCam{
+    width: 43vw;
+    padding:0.25vw;
+}
+
+.sixLiveCam{
+    width:28.6vw;
+    padding:0.25vw;
+
+}
+.eightLiveCam{
+    width:21.5vw;
+    padding:0.25vw;
+
+}
+.sixteenLiveCam{
+    width:21.5vw;
+    padding:0.25vw;
+
+}
+
+.pagination .page-item .page-link {
+  /* background-color: #007bff ; Custom background color */
+  /* color: white !important; Custom text color */
+  /* border: 1px solid #0056b3 !important; Custom border */
+ }
+
+.pagination .page-item .page-link {
+    background: rgba(255, 255, 255, 0.186);  /* Lighter shade with more transparency */
+    user-select: none;
+  color: #fff;
+  border: none;
+   
+}
+
+.pagination .page-item .page-link.pageNumArea{
+    /* background: rgba(255, 255, 255, 0.466);  Lighter shade with more transparency */
+    background: #444;
+    /* font-size: 0.2rem; */
+}
+
+
+
+
+
+
+
+.customPaginationLive .page-item{
+    cursor: pointer;
+    color: white;
+}
+
+/* .stream-item{
+    border: 1px solid gray;
+} */
+
+
+.live-area-section-top{
+  
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin-top: 10px;
+}
+
+.stream-grid{
+    display: flex;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,81 @@
+
+.app-outter-container{
+  display:flex;
+  flex-direction:column;
+  overflow:hidden;
+  color: #fff;
+  font-size: 0.8rem;
+  /* min-width: 960px; */
+}
+
+*{
+  scrollbar-width: thin; /* For Firefox */
+  scrollbar-color: #888 #222; /* Custom scrollbar color */
+}
+
+
+
+.app-container {
+  display: flex;
+  height: 92vh; /* Ensure full screen height */
+  width: 100vw; /* Ensure full screen width */
+  justify-content:space-between;
+  /* min-width: 960px; */
+
+}
+
+/* Sidebar on the left */
+.sidebar {
+  width: 14vw;
+  /* min-width: 160px;  */
+  background: #2d2d2d;
+  color: #fff;
+  padding: 15px;
+  flex-shrink: 0; /* Prevent shrinking */
+}
+
+/* Right sidebar on the right */
+.right-sidebar {
+  width: 16vw;
+  /* min-width: 180px; Explicit min-width */
+
+  background: #2d2d2d;
+  color: #fff;
+  padding: 15px;
+  flex-shrink: 0; /* Prevent shrinking */
+}
+
+/* Video area in the center taking available space */
+.video-area-section {
+  flex-grow: 1; /* Take remaining space */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #000; 
+  /* padding: 10px  20px; */
+}
+
+.live-area-section{
+  flex-grow: 1; /* Take remaining space */
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+  background: #000; 
+  /* padding: 10px  20px; */
+  position: relative;
+}
+
+/* 
+.stream-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  margin-bottom: 1rem;
+}
+
+.stream-item {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+} */
